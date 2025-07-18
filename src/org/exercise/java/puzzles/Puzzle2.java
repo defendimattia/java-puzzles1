@@ -11,18 +11,15 @@ package org.exercise.java.puzzles;
 public class Puzzle2 {
     public static boolean haDuplicatiConsecutivi(int[] array) {
 
-        boolean hasConsecutiveDuplicates = false;
         int prevNumber = array[0];
 
         for (int index = 1; index < array.length; index++) {
             if (array[index] == prevNumber) {
-                hasConsecutiveDuplicates = true;
-                break;
+                return true;
             } else {
                 prevNumber = array[index];
             }
         }
-
-        return hasConsecutiveDuplicates;
+        return false;
     }
 }
