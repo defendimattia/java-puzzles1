@@ -2,13 +2,14 @@
 
 // Descrizione:
 // Calcolare la somma di tutti i numeri dispari in un array di interi.
+
 // Firma metodo attesa:
 // public static int sommaDispari(int[]numeri)
+
 
 package org.exercise.java.puzzles;
 
 public class Puzzle1 {
-
     public static int sommaDispari(int[] numbers) {
 
         int sum = 0;
