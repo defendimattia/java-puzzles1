@@ -1,6 +1,7 @@
 
 import org.exercise.java.puzzles.Puzzle1;
 import org.exercise.java.puzzles.Puzzle2;
+import org.exercise.java.puzzles.Puzzle3;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -19,6 +20,11 @@ public class App {
         int[] ex2Numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
         System.out.print(Puzzle2.haDuplicatiConsecutivi(ex2Numbers));
 
+        System.out.println("\n--------------------");
+
+        // puzzle 3
+        System.out.println("Puzzle 3");
+        System.out.print(Puzzle3.sonoAnagrammi("prova", "rpovc"));
         System.out.println("\n--------------------");
     }
 }
