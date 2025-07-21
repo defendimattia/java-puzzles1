@@ -2,6 +2,7 @@
 import org.exercise.java.puzzles.Puzzle1;
 import org.exercise.java.puzzles.Puzzle2;
 import org.exercise.java.puzzles.Puzzle3;
+import org.exercise.java.puzzles.Puzzle4;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -25,6 +26,11 @@ public class App {
         // puzzle 3
         System.out.println("Puzzle 3");
         System.out.print(Puzzle3.sonoAnagrammi("prova", "rpovc"));
+        System.out.println("\n--------------------");
+
+        // puzzle 4
+        System.out.println("Puzzle 4");
+        System.out.print(Puzzle4.primaNonRipetuta("ffhweweureuytrddhcbeewergrt"));
         System.out.println("\n--------------------");
     }
 }
