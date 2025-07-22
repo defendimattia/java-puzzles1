@@ -4,6 +4,7 @@ import org.exercise.java.puzzles.Puzzle2;
 import org.exercise.java.puzzles.Puzzle3;
 import org.exercise.java.puzzles.Puzzle4;
 import org.exercise.java.puzzles.Puzzle5;
+import org.exercise.java.puzzles.Puzzle6;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -37,6 +38,11 @@ public class App {
         // puzzle 5
         System.out.println("Puzzle 5");
         System.out.print(Puzzle5.contaCifre(111111));
+        System.out.println("\n--------------------");
+
+        // puzzle 6
+        System.out.println("Puzzle 6");
+        System.out.print(Puzzle6.parentesiBilanciate(""));
         System.out.println("\n--------------------");
     }
 }
