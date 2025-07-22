@@ -8,9 +8,6 @@
 
 package org.exercise.java.puzzles;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Puzzle6 {
     public static boolean parentesiBilanciate(String input) {
 
