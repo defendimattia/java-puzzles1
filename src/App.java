@@ -3,6 +3,7 @@ import org.exercise.java.puzzles.Puzzle1;
 import org.exercise.java.puzzles.Puzzle2;
 import org.exercise.java.puzzles.Puzzle3;
 import org.exercise.java.puzzles.Puzzle4;
+import org.exercise.java.puzzles.Puzzle5;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -31,6 +32,11 @@ public class App {
         // puzzle 4
         System.out.println("Puzzle 4");
         System.out.print(Puzzle4.primaNonRipetuta("ffhweweureuytrddhcbeewergrt"));
+        System.out.println("\n--------------------");
+
+        // puzzle 5
+        System.out.println("Puzzle 5");
+        System.out.print(Puzzle5.contaCifre(111111));
         System.out.println("\n--------------------");
     }
 }
